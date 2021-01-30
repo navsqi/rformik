@@ -2,12 +2,12 @@ import logo from './logo.svg';
 import './App.css';
 import { Styles } from './Styles';
 
-import YoutubeForm from './components/YoutubeForm';
+import YoutubeFormComponent from './components/YoutubeFormComponent';
 
 function App() {
   return (
     <Styles>
-      <YoutubeForm />
+      <YoutubeFormComponent />
     </Styles>
   );
 }
